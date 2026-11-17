@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0"
+  },
+  "name": "libro",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js --demo",
+    "make-admin": "node make-admin.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "version": "1.0.0",
+  "private": true
+}
